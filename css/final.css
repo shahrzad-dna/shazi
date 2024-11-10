@@ -1,0 +1,55 @@
+.final{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .parent-final{
+        width: 83%;
+        height: inherit;
+        background-color: #3C4B6D;
+        border-radius: 15px;
+        display: flex;
+        flex-flow: row nowrap;
+        .right-final{
+            width: 40%;
+            height: inherit;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            column-gap: 10px;
+            padding-right: 10px;
+            img{
+                width: 40px;
+                height: 40px;
+            }
+            font-family: var(--fontfamilly);
+            font-size: 16px;
+            color: whitesmoke;
+            font-weight: bold;
+            outline: none;
+        }
+        .left-final{
+            width: 59%;
+            height: inherit;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: left;
+            align-items: center;
+            column-gap: 15px;
+            img{
+                width: 139px;
+                height: 44px;
+            }
+            .svg-final-point{
+                width: 40px;
+                height: 40px;
+                background-color: aliceblue;
+                border-radius: 7px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

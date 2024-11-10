@@ -1,0 +1,52 @@
+.study {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  .center-study {
+    width: 83%;
+    height: 315px;
+    border-radius: 15px;
+    .top-study {
+      width: 100%;
+      font-family: var(--fontfamilly);
+      text-align: right;
+      margin: 10px 0;
+      padding-right: 35px;
+      font-size: 14px;
+    }
+    .bottom-study {
+      width: 100%;
+      height: auto;
+      display: flex;
+      column-gap: 7px;
+      flex-flow: row nowrap;
+      .item-study {
+        width: 328px;
+        height: 265px;
+        border: 1px solid #E0E0E2;
+        border-radius: 10px;
+        display: flex;
+        flex-flow: column nowrap;
+        row-gap: 10px;
+        img {
+          width: 255px;
+          height: 200px;
+          overflow: hidden;
+          box-sizing: border-box;
+          display: inline-block;
+          border-radius: 10px 10px 0 0;
+        }
+        .study-text{font-family: var(--fontfamilly);
+            font-size: 12px;
+            font-weight: lighter;
+            text-align: right;
+            padding: 0 10px;
+            }
+        
+
+      }
+    }
+  }
+}

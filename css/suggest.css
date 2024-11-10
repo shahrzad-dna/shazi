@@ -1,0 +1,70 @@
+.suggest {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    .device-center {
+      width: 82%;
+      height: 350px;
+      border: 1px solid lightgray;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 1px;
+      .device-product {
+        width: 286px;
+        height: inherit;
+        
+        padding: 20px;
+        
+        
+        
+        .title-device {
+          font-family: var(--fontfamilly);
+          font-size: 15px;
+          font-weight: lighter;
+          padding-right: 5px;
+        }
+        .text-device{
+          font-family: var(--fontfamilly);
+          font-size: 10px;
+          font-weight: lighter;
+          padding-right: 15px;
+  
+        }
+  
+        .parent-device {
+          display: flex;
+          margin-top: 5px;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+          column-gap: 2px;
+  
+          .device-item-image {
+            width: 120px;
+            height: 125px;
+  
+            img {
+              width: inherit;
+              height: inherit;
+            }
+          }
+        }
+      }
+    }
+  }
+  .border-item-top {
+      border-top: 1px solid lightgray;
+  }
+  .leftborder{
+      border-left: 1px solid lightgray;
+  }
+  .span-device{
+      width: 1px;
+      height: inherit;
+      background-color: lightgray;
+    }

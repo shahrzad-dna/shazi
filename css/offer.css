@@ -1,0 +1,146 @@
+.offer {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+
+  .offer-center {
+    width: 80%;
+    height: inherit;
+    background-color: crimson;
+    border-radius: 15px;
+    padding: 20px 0;
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .swiper-slid-item {
+        width: inherit;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        flex-flow: column wrap;
+
+        img {
+          width: 80px;
+          height: 80px;
+          margin-bottom: 10px;
+        }
+        .clock {
+          width: 100%;
+          height: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          column-gap: 2px;
+          flex-flow: row-reverse;
+
+          .hours,
+          .minut,
+          .second {
+            background-color: whitesmoke;
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: bold;
+          }
+          .colom {
+            color: whitesmoke;
+          }
+        }
+        .smile {
+          padding-top: 20px;
+          width: 70px;
+          height: 70px;
+        }
+      }
+
+      .swiper-slide-product {
+        width: inherit;
+        height: inherit;
+        display: flex;
+        flex-flow: column wrap;
+        margin-top: 50px;
+        align-items: center;
+        padding: 0 5px;
+
+        .image {
+          width: 130px;
+          height: 130px;
+          margin-bottom: 10px;
+        }
+        .text {
+          font-family: var(--fontfamilly);
+          font-size: 12px;
+          color: gray;
+          line-height: 20px;
+          width: 80%;
+          margin: 0 auto;
+        }
+        .price {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-between;
+
+          h3 {
+            font-size: 18px;
+            font-family: var(--fontfamilly);
+            font-weight: bold;
+
+            display: flex;
+            align-items: center;
+
+            img {
+              width: 16px;
+              height: 16px;
+            }
+          }
+
+          .discount {
+            background-color: crimson;
+            font-size: 16px;
+            font-family: Ver(--fontfamilly);
+            border-radius: 5px;
+            color: whitesmoke;
+            display: inline-block;
+            height: 20px;
+            width: 30px;
+          }
+        }
+
+        .oldprice {
+          font-family: var(--fontfamilly);
+          font-size: 16px;
+          color: gray;
+          width: 100%;
+          text-align: left;
+          padding-left: 20px;
+          text-decoration: line-through;
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+.removebgoffer {
+  background-color: transparent !important;
+}
